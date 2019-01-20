@@ -1,0 +1,67 @@
+.nav-item >a:hover{
+	background-color: #579da8;
+	color: #F4F6F7;
+	font-weight: bold;
+	transition: 0.6s ease;
+	border-radius: 15px;
+}
+.carousel-item > img {
+	height: 70vh !important; 
+}
+
+.main-content{
+	min-height: calc(100vh - 20vh);
+
+}
+
+.footer {
+	padding: 25px;
+	background-color: #343a40;
+	bottom: 0;
+	/*position: fixed;*/
+
+}
+.new
+{
+	color: #579da8;
+}
+.footer div.company-portion span.company-name{
+
+color: #ffff;
+padding-left: 25px;
+
+} 
+.footer div.company-portion >p{
+color: #ffff;
+
+}
+.footer ul.unstyle-list{
+	list-style-type: none;
+	color: #ffff;
+
+}
+.footer ul.unsytle-list a{
+	color: #ffff;
+}
+
+
+
+.footer ul.social-icon a{
+font-size: 30px;
+padding: 7px;
+color: white;
+
+}
+
+.footer p.footer-link > a{
+
+	color: white;
+	transition: 0.8s;
+}
+
+.footer p.footer-link > a:hover{
+
+	font-size: 20px;
+	color: red;
+
+}
