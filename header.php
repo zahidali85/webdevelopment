@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>UI Learning</title>
-	
+	<meta charset="utf-8" name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -15,6 +15,7 @@
 	
 </head>
 <body>
+	<div class="main-content">
 		<nav class="navbar navbar-expand-lg rounded bg-dark navbar-dark">
 		<a href="index.php" class="navbar-brand"> <img src="assets/img/logo.jpg" class="img-fluid"width="65">UI learning</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-id" aria-controls="navbar-id" aria-expanded="false" aria-lable="toggle-navigation">

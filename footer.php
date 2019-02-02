@@ -1,5 +1,5 @@
 </div>
-<div class="container-fluid footer">
+<div class="container-fluid footer" style="background-color:white !important;">
 
 	<div class="row text-center text-sm-left text-md-left">
 		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">

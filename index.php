@@ -86,26 +86,86 @@ require_once 'slider.php'
 // var name = `${fname} \n ${lname}`;
 // console.log (name);
 // var marks = 26;
-var number = 79;
-if (number >=33 && number <=39){
-	console.log('grade is E');
-
-}else if (number >= 40 && number <=49){
-	console.log( 'grade is D');
-}else if (number >= 50 && number <=59){
-	console.log( 'grade is C');
-}else if (number >= 60 && number <=69){
-	console.log( 'grade is B');
-}else if (number >= 70 && number <=79){
-	console.log( 'grade is A');
-}else if (number >= 80 && number <=100){
-	console.log( 'grade is A+');
-}else{
-	console.log("invalid");
-}
+// 
 
 
 
+// var i=10;
+// while (i>=1){
+
+// 	console.log(i);
+// 	i--
+
+// }
+
+// var i=0;
+// while (i<=10){
+// if(i % 2 ==1)
+// 	console.log(i);
+// 	i++
+
+// }
+
+
+
+
+
+// function add (a=10,b=20){
+
+	
+// 	var sum = a+b;
+// 	console.log(sum);
+// }
+// // add();
+
+
+// function sub(a,b ){
+
+	
+// 	var sub = a-b;
+// 	console.log(sub);
+// }
+// // sub();
+
+
+// function mul(a,b ){
+
+
+// 	var mul = a*b;
+// 	console.log(mul);
+// }
+// // mul();
+
+
+// function div(a,b ){
+
+	
+// 	var div = a/b;
+// 	console.log(div);
+// }
+// // div();
+
+// var option = 'sum'
+// switch (option){
+// 	case 'add':
+// 	add(10,20);
+// 	break;
+
+// 	case 'sub':
+// 	sub(10,20);
+// 	break;
+
+// 	case 'div':
+// 	div(10,20);
+// 	break;
+
+// 	case 'mul':
+// 	mul(10,20);
+// 	break;
+// 	default:
+// 	console.log("invalid input");
+
+// }
 
 // if (marks > 91) {
 	// console.log("pass")
@@ -114,6 +174,20 @@ if (number >=33 && number <=39){
 	// console.log("fail")
 // }
 
+// var fruits = ['apple','banana','orange','mosambi']
+// console.log(fruits[2])
+
+
+// var fruits = ['apple','banana','orange','mosambi']
+// console.log(fruits.length)
+
+var fruits = ['apple','banana','orange','mosambi']
+console.log(fruits.length-1)
+// console.log(fruits[0])
+for ( var i = 0; i < fruits.length; i++){
+	fruits[i]
+	console.log(fruits[i]);
+}
 </script>
 </body>
 
