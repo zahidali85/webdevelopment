@@ -181,7 +181,7 @@ require_once 'slider.php'
 // var fruits = ['apple','banana','orange','mosambi']
 // console.log(fruits.length)
 
-var fruits = ['apple','banana','orange','mosambi']
+var fruits = ['apple','banana','orange','mosambi','mosambi']
 console.log(fruits.length-1)
 // console.log(fruits[0])
 for ( var i = 0; i < fruits.length; i++){
