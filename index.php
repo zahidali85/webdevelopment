@@ -1,9 +1,9 @@
 <?php include'header.php'
 ?>
 	
-<?php 
+<!-- <?php 
 require_once 'slider.php'
- ?>	
+ ?>	 -->
 
 
 
@@ -60,8 +60,10 @@ require_once 'slider.php'
 	</div> -->
 
 
-
-
+<label id="email-label">email</label>
+<input class="from-control test" type="test" name="text" id="test12" value="" placeholder="insert Email adress">
+<br>
+<button class="btn btn-primary submit">submit</button>
 
 
 
@@ -71,6 +73,7 @@ require_once 'slider.php'
 
 <?php require_once('footer.php');
 ?>
+
 <script type="text/javascript">
 	// var result;
 	// var a = 10, b = 20, c = 8;
@@ -181,13 +184,22 @@ require_once 'slider.php'
 // var fruits = ['apple','banana','orange','mosambi']
 // console.log(fruits.length)
 
-var fruits = ['apple','banana','orange','mosambi','mosambi']
-console.log(fruits.length-1)
-// console.log(fruits[0])
-for ( var i = 0; i < fruits.length; i++){
-	fruits[i]
-	console.log(fruits[i]);
-}
+// var fruits = ['apple','banana','orange','mosambi','mosambi']
+// console.log(fruits.length-1)
+// // console.log(fruits[0])
+// for ( var i = 0; i < fruits.length; i++){
+// 	fruits[i]
+// 	console.log(fruits[i]);
+// }
+
+$(document).ready(function(){
+$('.submit').click(function(){
+var valve = $('.test').attr('id');
+	console.log(valve)
+})
+
+})
+
 </script>
 </body>
 
