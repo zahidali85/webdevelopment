@@ -61,9 +61,18 @@ require_once 'slider.php'
 
 
 <label id="email-label">email</label>
-<input class="from-control test" type="test" name="text" id="test12" value="" placeholder="insert Email adress">
 <br>
-<button class="btn btn-primary submit">submit</button>
+<input class="from-control test" type="test" name="text" id="email" value="" placeholder="insert Email adress">
+<span class="email-error" style="display:none; color:red">email is requird</span>
+<br>
+<label id="email-label">pasword</label>
+<br>
+<input class="from-control test" type="test" name="text" id="password" value="">
+<br>
+<span class="password-error" style="display:none; color: red">password is requird</span>
+
+<br>
+<button class="btn btn-primary submit" id="test3">submit</button>
 
 
 
@@ -192,13 +201,45 @@ require_once 'slider.php'
 // 	console.log(fruits[i]);
 // }
 
-$(document).ready(function(){
-$('.submit').click(function(){
-var valve = $('.test').attr('id');
-	console.log(valve)
-})
+// $(document).ready(function(){
+// $('.submit').click(function(){
+// var valve = $('.test').attr('id');
+// 	console.log(valve)
+// })
 
-})
+// })
+
+
+// $(document).ready(function(){
+//  		$('.submit').click(function(){
+// 	var value = $('.test').attr('name1','test2');
+// 	// Remove an attribute
+// 	  $('.test').removeAttr('id');
+// 	console.log(value);
+	// });
+   //  });
+ 	
+$(document).ready(function(){
+ 		$('.submit').click(function(){
+		 // $('#test3').text('submited');
+		var email = $('#email').val();
+			var password = $('#password').val();
+			if (email.length <  1) {
+				$('.email-error').show(1000);
+			}else {
+				$('.email-error').hide(1000);
+			} 
+
+			if (password.length < 1){
+				$('.password-error').show(1000);
+			}else {
+				$('.password-error').hide(1000);
+			}
+
+});
+ 	});
+
+
 
 </script>
 </body>
